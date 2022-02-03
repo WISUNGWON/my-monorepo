@@ -1,5 +1,5 @@
-# Yarn berry, Rollup, TypeScript
-Building a mono repo package environment using yarn berry, rollup, typescript, nextjs, emotion
+# My-monorepo
+Building a mono repo package environment example using yarn berry, rollup, typescript, nextjs, emotion
 
 ## Directory
 
