@@ -1,9 +1,9 @@
-import "../styles/globals.css";
+import '../styles/globals.css';
 
-import type { AppProps } from "next/app";
-import { ThemeProvider } from "@emotion/react";
+import type { AppProps } from 'next/app';
+import { ThemeProvider } from '@emotion/react';
 
-import { theme } from "@my-monorepo/ui/themes";
+import { theme } from '@my-monorepo/ui/themes';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

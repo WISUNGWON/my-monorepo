@@ -7,7 +7,7 @@
     "build": "yarn build:ui && next build",
     "build:only": "next build",
     "build:ui": "cd ../../packages/ui && yarn build",
-    "lint": "next lint"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -19,10 +19,12 @@
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.7.2",
+    "@my-monorepo/eslint-config-react": "workspace:*",
     "@types/node": "17.0.14",
     "@types/react": "17.0.38",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
+    "prettier": "^2.5.1",
     "typescript": "4.5.5"
   }
 }
