@@ -1,5 +1,5 @@
 # My-monorepo
-Building a mono repo package environment example using yarn berry, rollup, typescript, nextjs, emotion
+Building a mono repo package environment example using yarn berry, rollup, typescript, nextjs, emotion, jest, react-testing-library
 
 ## Directory
 
@@ -12,14 +12,17 @@ Building a mono repo package environment example using yarn berry, rollup, types
 +--    +-- ui
 ```
 ### Ref
-monorepo
+**monorepo**
 - [yarn-monorepo-example](https://github.com/octave08/yarn-monorepo-example)
-
 - [Typescript-React-Rollup](https://velog.io/@_junukim/Typescript-React-Rollup%EC%9C%BC%EB%A1%9C-%ED%92%80%EC%84%B8%ED%8A%B8-Component-Library%EB%A7%8C%EB%93%A4%EA%B8%B0)
 
-rollup
+**rollup**
 - [rollupjs-config](https://so-so.dev/tool/rollup/rollupjs-config/)
 
-lint
+**lint**
 - [monorepo-yarn-workspaces-shared-eslint-and-prettier-configs](https://stackoverflow.com/questions/68629014/monorepo-yarn-workspaces-shared-eslint-and-prettier-configs)
 - [Mono-Repo](https://velog.io/@tjdgus3160/Mono-Repo)
+
+**test (jest, react-testing-library)**
+- [Next.js Typescript Project Setup with React Testing Library](https://www.youtube.com/watch?v=W0cyIehV9_4)
+- https://github.com/leoroese/blog-tube/tree/main/packages/next-ts-frontend
