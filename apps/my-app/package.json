@@ -7,9 +7,12 @@
     "build": "yarn build:ui && next build",
     "build:only": "next build",
     "build:ui": "cd ../../packages/ui && yarn build",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src"
   },
   "dependencies": {
+    "@babel/runtime": "^7.17.0",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@my-monorepo/ui": "*",
@@ -23,9 +26,15 @@
   "devDependencies": {
     "@emotion/babel-plugin": "^11.7.2",
     "@my-monorepo/eslint-config-react": "workspace:*",
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.4.0",
     "@types/node": "17.0.14",
     "@types/react": "17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/testing-library__jest-dom": "^5.14.2",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
     "prettier": "^2.5.1",
